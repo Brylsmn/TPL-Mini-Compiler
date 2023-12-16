@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="887.0" styleClass="main-pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tpl_finalproject.FinalProjectController">
+   <children>
+      <Button fx:id="openFileButton" layoutX="17.0" layoutY="60.0" mnemonicParsing="false" onAction="#onOpenFileButtonClick" prefHeight="60.0" prefWidth="180.0" styleClass="action-button" text="Open File">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="lexicalButton" layoutX="17.0" layoutY="140.0" mnemonicParsing="false" onAction="#onLexicalButtonClick" prefHeight="60.0" prefWidth="180.0" styleClass="action-button" text="Lexical Analysis">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="syntaxButton" layoutX="17.0" layoutY="220.0" mnemonicParsing="false" onAction="#onSyntaxButtonClick" prefHeight="60.0" prefWidth="180.0" styleClass="action-button" text="Syntax Analysis">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="semanticButton" layoutX="17.0" layoutY="300.0" mnemonicParsing="false" onAction="#onSemanticButtonClick" prefHeight="60.0" prefWidth="180.0" styleClass="action-button" text="Semantic Analysis">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearButton" layoutX="17.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClearButtonClick" prefHeight="60.0" prefWidth="180.0" styleClass="action-button" text="Clear">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="212A3E" height="105.0" layoutX="212.0" layoutY="38.0" stroke="#dddddd" strokeType="INSIDE" width="656.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="212A3E" height="301.0" layoutX="212.0" layoutY="158.0" stroke="#dddddd" strokeType="INSIDE" width="656.0" />
+      <Label fx:id="resultText" layoutX="238.0" layoutY="73.0" text="Result:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="codeTextArea" layoutX="238.0" layoutY="178.0" text="Code Text Area">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textArea" layoutX="212.0" layoutY="158.0" prefHeight="301.0" prefWidth="656.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+   </children>
+</Pane>
+
+
+
+
